@@ -1,0 +1,89 @@
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    background-color: #121212;
+    padding: 20px;
+  }
+  
+  .control-panel {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 20px;
+  }
+  
+  .disk-control, .move-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .btn {
+    margin-left: 20px;
+    padding: 5px 15px;
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .tower-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 200px;
+    margin-bottom: 20px;
+  }
+  
+  .tower {
+    background-color: transparent;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .pole {
+    width: 5px;
+    height: 150px;
+    background-color: red;
+    margin-bottom: 10px;
+  }
+  
+  .disk {
+    height: 30px;
+    text-align: center;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 5px;
+  }
+  
+  .disk-1 {
+    background-color: #FFD700; /* Gold */
+  }
+  
+  .disk-2 {
+    background-color: #FF8C00; /* Dark Orange */
+  }
+  
+  .disk-3 {
+    background-color: #1E90FF; /* Dodger Blue */
+  }
+  
+  .disk-4 {
+    background-color: #8A2BE2; /* Blue Violet */
+  }
+  
+  .disk-5 {
+    background-color: #32CD32; /* Lime Green */
+  }
+  
+  .time-info {
+    margin-top: 10px;
+  }
+  
